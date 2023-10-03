@@ -14,10 +14,10 @@ for (let x =1; x<=100; x++){
 if (x % 3 == 0 && x % 5 == 0){
     console.log("FIZZBUZZ")
 }
-if (x % 3 == 0){
+else if (x % 3 == 0){
     console.log("FIZZ")
 }
-if (x % 5 == 0){
+else if (x % 5 == 0){
     console.log("BUZZ")
 }
 }
@@ -41,10 +41,10 @@ while(x <= 100){
     if (x % 3 == 0 && x % 5 == 0){
         console.log("FIZZBUZZ")
     }
-    if (x % 3 == 0){
+    else if (x % 3 == 0){
         console.log("FIZZ")
     }
-    if (x % 5 == 0){
+    else if (x % 5 == 0){
         console.log("BUZZ")
     }
     x++;
@@ -54,10 +54,10 @@ do{
     if (x % 3 == 0 && x % 5 == 0){
         console.log("FIZZBUZZ")
     }
-    if (x % 3 == 0){
+    else if (x % 3 == 0){
         console.log("FIZZ")
     }
-    if (x % 5 == 0){
+    else if (x % 5 == 0){
         console.log("BUZZ")
     }
     x++;
@@ -65,7 +65,7 @@ do{
 //ex 4 
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
-for (x = 1; x <= 500; x++){
+for (x = 1; x <= n; x++){
     if (x != n)
     console.log("Found value!")
     else{
